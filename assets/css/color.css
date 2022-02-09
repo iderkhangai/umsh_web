@@ -688,3 +688,15 @@ input[type="search"]:focus {
 .accent-color-hover:hover {
   color: #ff980e !important;
 }
+.modal-backdrop {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 1 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: #000 !important;
+}
+.donation {
+  color: white !important;
+}

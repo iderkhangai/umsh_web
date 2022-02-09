@@ -48,6 +48,7 @@ $(document).ready(function () {
     target: ".dtr-scrollspy",
   });
 
+  
   // nav scroll
   if ($("#dtr-header-global").length) {
     var navoffset = $("#dtr-header-global").height();
