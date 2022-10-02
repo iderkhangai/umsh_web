@@ -4,7 +4,7 @@
 if(isset($_POST['url']) && $_POST['url'] == ''){
 
 	// put your email address here
-	$youremail = 'yourname@mail.com';  
+	$youremail = 'iderhangai2014@gmail.com';  
 
 	// prepare message 
 	$body = "You have got a new message from the contact form on your website - Heartness :

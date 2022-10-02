@@ -36,8 +36,16 @@
 
 /*----------------------------------------*/
 
-@import url("https://fonts.googleapis.com/css?family=Jost:300,400,500,600,700,800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,500&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css?family=Jost:300,400,500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,500&display=swap"); */
+
+
+/* These links need to point to actual ttf files and be relative to your css file */
+
+
+/* @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9'); */
+
 
 /*----------------------------------------*/
 
@@ -46,12 +54,6 @@
 
 
 /*----------------------------------------*/
-
-body {
-    -webkit-font-smoothing: antialiased;
-    -webkit-animation: fix 1s 1;
-    overflow-x: hidden;
-}
 
 h1,
 h2,
@@ -93,9 +95,9 @@ p:last-child {
 /*----------------------------------------*/
 
 body {
-    font-family: "Jost", sans-serif;
+    /* font-family: 'Helvetica 65 Medium 400'; */
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 1.5em;
 }
 
@@ -106,7 +108,6 @@ h4,
 h5,
 h6,
 .heading-font-family {
-    font-family: "Jost", sans-serif;
     font-weight: 500;
 }
 
@@ -116,7 +117,6 @@ h6,
 input[type="submit"],
 input[type="reset"],
 .text-link {
-    font-family: "Jost", sans-serif;
     font-weight: 700;
 }
 
@@ -3336,15 +3336,15 @@ input[type="search"],
 }
 
 .first .event-bg {
-    background-image: url("https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?cs=srgb&dl=accounts-applications-apps-267350.jpg&fm=jpg");
+    background-image: url("../images/events/stipendum_hungaricum_2022.jpg");
 }
 
 .second .event-bg {
-    background-image: url("https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?cs=srgb&dl=art-art-materials-artwork-1053687.jpg&fm=jpg");
+    background-image: url("../images/events/csgo.jpg");
 }
 
 .third .event-bg {
-    background-image: url("https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?cs=srgb&dl=brainstorming-campaign-collaborate-6224.jpg&fm=jpg");
+    background-image: url("../images/events/stipendum_hungaricum_2022.jpg");
 }
 
 .event .label {
@@ -3554,9 +3554,9 @@ input[type="search"],
 
 .info h3 {
     font-weight: bold;
-    font-size: 42px;
-    padding: 30px;
-    background-color: #7e57c2;
+    font-size: 35px;
+    padding: 15px;
+    background-color: #2e2974;
     margin: 0;
     color: #fff;
     text-align: center;
@@ -3625,6 +3625,7 @@ input[type="search"],
     text-align: justify;
     font-size: 15px;
     line-height: 20px;
+    font-weight: 500;
     overflow: hidden;
 }
 
@@ -3640,4 +3641,11 @@ input[type="search"],
 .team {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.member-title {
+    font-size: 14px;
+    white-space: pre;
+    font-weight: 400;
+    margin-top: -30px;
 }
